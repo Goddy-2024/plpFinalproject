@@ -31,7 +31,7 @@ app.use(limiter);
 
 // CORS configuration
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:5173',
+  origin: process.env.CLIENT_URL || 'https://dev-ops-plum-iota.vercel.app/',
   credentials: true
 }));
 
